@@ -14324,7 +14324,7 @@ function H1({
 
 function W1({
     telegramUrl: e = "https://t.me/Uptober10BSC",
-    twitterUrl: t = "https://x.com/Uptober10BSC",
+    twitterUrl: t = "https://x.com/bscuptober",
     twitterCommunityUrl: n = "https://dexscreener.com/bsc/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c",
     dextoolsUrl: r = "https://www.dextools.io/app/en/bnb/token/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
 }) {
@@ -14336,7 +14336,7 @@ function W1({
     }, {
         title: "X (Twitter)",
         url: t,
-        displayUrl: "@Uptober10BSC",
+        displayUrl: "@bscuptober",
         testId: "card-twitter"
     }, {
         title: "Dexscreener",
@@ -14491,7 +14491,7 @@ function X1() {
                 contractAddress: e
             }), m.jsx(W1, {
                 telegramUrl: "https://t.me/Uptober10BSC",
-                twitterUrl: "https://x.com/Uptober10BSC",
+                twitterUrl: "https://x.com/bscuptober",
                 twitterCommunityUrl: "https://dexscreener.com/bsc/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c",
                 dextoolsUrl: "https://www.dextools.io/app/en/bnb/token/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
             })]
