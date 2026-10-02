@@ -14323,20 +14323,14 @@ function H1({
 }
 
 function W1({
-    telegramUrl: e = "https://t.me/Uptober10BSC",
-    twitterUrl: t = "https://x.com/bscuptober",
+    twitterUrl: t = "https://x.com/bnbuptober",
     twitterCommunityUrl: n = "https://dexscreener.com/bsc/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c",
     dextoolsUrl: r = "https://www.dextools.io/app/en/bnb/token/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
 }) {
     const o = [{
-        title: "Telegram",
-        url: e,
-        displayUrl: "@Uptober10BSC",
-        testId: "card-telegram"
-    }, {
         title: "X (Twitter)",
         url: t,
-        displayUrl: "@bscuptober",
+        displayUrl: "@bnbuptober",
         testId: "card-twitter"
     }, {
         title: "Dexscreener",
@@ -14356,7 +14350,7 @@ function W1({
             className: "text-3xl font-bold mb-6",
             children: "Socials & Trackers"
         }), m.jsx("div", {
-            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
+            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
             children: o.map((i, s) => m.jsxs(ze, {
                 className: "border-l-4 border-l-primary shadow-lg hover-elevate",
                 "data-testid": i.testId,
@@ -14490,8 +14484,7 @@ function X1() {
             }), m.jsx(V1, {}), m.jsx(H1, {
                 contractAddress: e
             }), m.jsx(W1, {
-                telegramUrl: "https://t.me/Uptober10BSC",
-                twitterUrl: "https://x.com/bscuptober",
+                twitterUrl: "https://x.com/bnbuptober",
                 twitterCommunityUrl: "https://dexscreener.com/bsc/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c",
                 dextoolsUrl: "https://www.dextools.io/app/en/bnb/token/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
             })]
