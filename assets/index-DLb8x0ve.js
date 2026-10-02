@@ -13665,7 +13665,7 @@ const h1 = "/assets/Untitled%20design_1759031836972-CJ4i2lXe.png",
     m1 = "/assets/Untitled%20design_1759031841924-CqpgJZEB.png";
 
 function g1({
-    contractAddress: e = "0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
+    contractAddress: e = "0x73f73468862890866dff267d3256ce589321b8b4"
 }) {
     const t = () => {
         window.open(`https://pancakeswap.finance/swap?outputCurrency=${e}`, "_blank")
@@ -14226,7 +14226,7 @@ function V1() {
 }
 
 function H1({
-    contractAddress: e = "0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
+    contractAddress: e = "0x73f73468862890866dff267d3256ce589321b8b4"
 }) {
     const t = ["Install a wallet like MetaMask or Trust Wallet.", "Add Binance Smart Chain network. (RPC available in wallet presets.)", "Fund with BNB (Smart Chain).", "Open a DEX (e.g., PancakeSwap).", "Paste the contract address and set slippage if needed.", "Swap BNB → $10 and HODL."],
         n = ["If liquidity is fresh, try 1–5% slippage.", "Always verify the contract (paste & check digits).", "Beware DM scammers. Team will never ask for funds."];
@@ -14324,8 +14324,8 @@ function H1({
 
 function W1({
     twitterUrl: t = "https://x.com/bnbuptober",
-    twitterCommunityUrl: n = "https://dexscreener.com/bsc/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c",
-    dextoolsUrl: r = "https://www.dextools.io/app/en/bnb/token/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
+    twitterCommunityUrl: n = "https://dexscreener.com/bsc/0x73f73468862890866dff267d3256ce589321b8b4",
+    dextoolsUrl: r = "https://www.dextools.io/app/en/bnb/token/0x73f73468862890866dff267d3256ce589321b8b4"
 }) {
     const o = [{
         title: "X (Twitter)",
@@ -14453,7 +14453,7 @@ function Y1() {
 }
 
 function X1() {
-    const e = "0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c",
+    const e = "0x73f73468862890866dff267d3256ce589321b8b4",
         t = r => {
             const o = document.getElementById(r);
             o == null || o.scrollIntoView({
@@ -14485,8 +14485,8 @@ function X1() {
                 contractAddress: e
             }), m.jsx(W1, {
                 twitterUrl: "https://x.com/bnbuptober",
-                twitterCommunityUrl: "https://dexscreener.com/bsc/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c",
-                dextoolsUrl: "https://www.dextools.io/app/en/bnb/token/0x1236bb1ef1a5394e515e3e6adff940dd1b83c15c"
+                twitterCommunityUrl: "https://dexscreener.com/bsc/0x73f73468862890866dff267d3256ce589321b8b4",
+                dextoolsUrl: "https://www.dextools.io/app/en/bnb/token/0x73f73468862890866dff267d3256ce589321b8b4"
             })]
         }), m.jsx(K1, {})]
     })
